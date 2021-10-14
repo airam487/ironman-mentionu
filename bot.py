@@ -34,7 +34,7 @@ async def staryt(event):
   await event.reply("^_^ Hey, Welcome To Simple Mention Bot\nIt can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [Button.url('🙃 Add To Group', 'https://t.me/ironman_groupassit_botn?startgroup=true'),
-                      Button.url('Support', 'https://t.me/ironman_support1')
+                      Button.url('Support', 'https://t.me/ironman_support1'),
                       Button.url('Updates', 'https://t.me/ironman_upport1')]
                     ),
                     link_preview=False
@@ -46,9 +46,9 @@ async def helrp(event):
   helptext = "**Simple Mention Bot's Help Menu**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
   await event.reply(helptext,
                     buttons=(
-                    [Button.url('🙃 Add To Group', 'https://t.me/ironman_groupassit_botn?startgroup=true'),
+                    [Button.url('🙃 Add To Group', 'https://t.me/ironman_groupassit_bot?startgroup=true'),
 
-                      Button.url('Support', 'https://t.me/ironman_support1')
+                      Button.url('Support', 'https://t.me/ironman_support1'),
 
                       Button.url('Updates', 'https://t.me/ironman_upport1')]
 
